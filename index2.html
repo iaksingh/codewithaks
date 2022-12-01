@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKS INSTITUTE</title>
+    <!--<link rel="stylesheet" href="index2.css">-->
+    <link rel="icon" href="favicon.gif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+        body {
+            margin: 0%;
+            background-color: rgb(253, 129, 129);
+        }
+
+        .background {
+            background-color: rgb(127, 238, 230);
+            text-align: center;
+            padding: 1cm;
+            position: sticky;
+            margin: 1cm;
+            overflow: hidden;
+        }
+
+        .footer {
+            padding: 2%;
+            word-spacing: 1in;
+            background-color: rgb(88, 168, 238);
+            text-align: center;
+        }
+
+        .header {
+            background-color: rgb(240, 217, 12);
+            font-size: larger;
+            text-align: center;
+        }
+
+        .h2,
+        aa {
+            animation: bouncing 0.5s ease 0s infinite alternate both;
+            font-family: Helvetica, sans-serif;
+            color: blue;
+            border-radius: 100%;
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            height: auto;
+            background-color: rgb(247, 183, 233);
+            transition: 2s;
+        }
+
+        .h2:hover {
+            background-color: rgb(255, 68, 0);
+            color: blue;
+
+        }
+
+        @keyframes bouncing {
+            0% {
+                bottom: 0px;
+                box-shadow: 0px 0px 5px rgb(247, 183, 233);
+            }
+
+            100% {
+                bottom: 10px;
+                box-shadow: 0px 50px 50px rgb(240, 217, 12);
+            }
+        }
+
+        .nav {
+            background-color: rgb(0, 0, 0);
+            color: azure;
+            font-style: italic;
+            font-size: larger;
+            text-align: center;
+            position: static;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .nav:hover,
+        .footer:hover {
+            background-color: rgb(40, 224, 15);
+            color: rgba(71, 4, 255, 0.596);
+            padding: 0%;
+            margin: 1%;
+
+        }
+
+        #myCarousel {
+            margin: 0%;
+        }
+
+        .video {
+            background-color: aliceblue;
+        }
+
+        .cap {
+            text-transform: uppercase;
+            padding: 0% 7%;
+        }
+
+        .aks {
+            font-weight: 900;
+            font-size: larger;
+            background-color: blueviolet;
+        }
+
+        .me {
+            clip-path: circle(50%);
+            width: 100px;
+
+        }
+
+        .book {
+            margin: 2%;
+        }
+
+        .path {
+            font-style: oblique;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .our {
+            background-color: aquamarine;
+        }
+
+        .welcome {
+            position: static;
+            background-color: black;
+            color: azure;
+        }
+
+        @media all and (min-width: 1001px) {}
+
+        @media all and (max-width:1000px) and (min-width:700) {}
+    </style>
+    
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="welcome">WELCOME TO AKS INSTITUTE</h1>
+        <h3 class="path">--A PATH TO YOUR DREAM</h3>
+    </header>
+    <nav class="cap">
+        <a class="nav" href="#">Home              </a>
+        <a class="nav" href="#">Books             </a>
+        <a class="nav" href="#">Courses           </a>
+        <a class="nav" href="#">Study_Material    </a>
+        <a class="nav" href="#">Feedback          </a>
+        <a class="nav" href="#">Login/SignUp      </a>
+    </nav>
+    <main>
+        <div class="background">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="delhi.jpg" alt="IIT Delhi" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="bombay.jpg" alt="IIT Bombay" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="kanpur.jpg" alt="IIT Kanpur" style="width:100%;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <section class="video">
+                <video width="100%" height="200" controls loop>
+                    <source src="aniv.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section class="book">
+                <h2 class="h2">CHOOSE SUBJECT TO EXPLORE FULL SET</h2>
+                <a target="_blank" href="https://drive.google.com/drive/folders/11TFnUwR5IRpfRmx_dBPrgYFI02hNKKlt"><img
+                        src="phy.jpeg" alt="physics" width="60%" height="60%"></a>
+                        <br>
+                        <br>
+                <a target="_blank" href="https://drive.google.com/drive/folders/11Yrq65KUtaiXla6dgYR1F7fGSPQFMmoO"><img
+                        src="chem.jpeg" alt="chemistry" width="60%" height="60%"></a>
+                        <br>
+                        <br>
+                <a target="_blank" href="https://drive.google.com/drive/folders/11UveMVgB8KIPNKu-Hww6o-W8cc3G6xGw"><img
+                        src="math.jpeg" alt="mathematics" width="60%" height="60%"></a>
+
+            </section>
+            <section class="book">
+                <h2 class="h2">CHOOSE SUBJECT TO OPEN 40 DAYS CRASH COURSES</h2>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/1Gi3OkcAWHiZvB_IuU_hY3_Tf_Ppa8TiO/view?usp=drivesdk"><img
+                        src="phy40.jpg" alt="physics" width="60%" height="100%"></a>
+                        <br>
+                        <br>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/1J_2jW_QsQqY7p6QDz9RcojE5yEU_m_Ix/view?usp=drivesdk"><img
+                        src="chem40.jpg" alt="chemistry" width="60%" height="100%"></a>
+                        <br>
+                        <br>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/19YmWkeXEx-IVLv_x-CLOqgVD43ywy2YZ/view?usp=drivesdk"><img
+                        src="math40.jpg" alt="mathematics" width="60%" height="100%"></a>
+            </section>
+            <section class="book">
+                <h2 class="h2">CHOOSE SUBJECT TO OPEN PYQ BOOKS</h2>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/1Hb94I-3ln-etx89yER1uSzlHFskXouZq/view?usp=drivesdk"><img
+                        src="phypyq.jpg" alt="physics" width="60%" height="60%"></a>
+                        <br>
+                        <br>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/13VZdE7yOzVnfBLi9n3yf2cIo_3oKsSsw/view?usp=drivesdk"><img
+                        src="chempyq.jpg" alt="physics" width="60%" height="60%"></a>
+                        <br>
+                        <br>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/19stGzMLUii_DxYUNS8-IOOSRJt064KXG/view?usp=drivesdk"><img
+                        src="mathpyq.jpg" alt="physics" width="60%" height="60%"></a>
+            </section>
+            <section class="aks">
+                <img class="me" src="meme.jpeg" alt="AKS">
+                <h2 class="our">OUR FOUNDER :- AMIT KUMAR SINGH (AKS)</h2>
+                <h3>THANK YOU FOR VISITING OUR WEBSITE, ENJOY YOUR JOURNEY</h3>
+                <Br></Br>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="#">FAQ</a>
+        <a href="#">CONTACT_US</a>
+        <a href="#">TERMS_OF_USE</a>
+        <a href="#">PRIVACY_POLICY</a>
+        <a href="#">INSTAGRAM</a>
+        <a href="#">FACEBOOK</a>
+        <a href="#">&copy;2022!AKS</a>
+    </footer>
+
+</body>
+
+</html>
